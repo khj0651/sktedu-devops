@@ -40,7 +40,7 @@ jib {
   }
   // AWS ECR Repository URL 및 Tag 입력
   to {
-    image = 'skt-user09:latest 255380800200.dkr.ecr.ap-southeast-1.amazonaws.com/skt-user09'
+    image = 'skt-user09:latest 255380800200.dkr.ecr.ap-southeast-1.amazonaws.com/skt-user09:latest'
     tags = ['1.0']
   }
   container {
